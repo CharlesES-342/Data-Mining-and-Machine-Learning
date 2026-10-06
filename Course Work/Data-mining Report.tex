@@ -1,0 +1,46 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{xcolor}
+\usepackage{soul}
+\usepackage{subcaption}
+\usepackage{titlesec}
+\usepackage{booktabs}
+\usepackage{siunitx}  % For decimal alignment
+
+
+\titleformat{\chapter}[hang]
+{\normalfont\huge\bfseries}{\thechapter. }{0pt}{\huge}
+\titlespacing*{\chapter}{0pt}{-30pt}{20pt}
+\titlespacing*{\section}{0pt}{10pt}{5pt}
+
+% customer TODO command
+
+
+
+\title{Data Mining Report}
+\author{Charles Smelt \\ \small{F331073}}
+\date{April 28, 2026}
+
+\begin{document}
+
+\maketitle
+
+\include{chapters/1-Preprocessing}
+
+\include{chapters/2-Income Distribution}
+
+\include{chapters/3-Predicting Income}
+
+\include{chapters/4-Demographics of US Elections}
+
+\include{chapters/5-own data mining}
+
+\end{document}
